@@ -1,0 +1,34 @@
+Script started on 2017年04月14日 (週五) 02時06分55秒
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab3 $[00m make
+g++ -c sorting.cpp
+g++ -o sorting sorting.o Clock.o 
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab3 $[00m make./main.cppprj1.cppmain.cppprj1.cppmain.cpp[K[2Pmake[K./sorting
+sort(): 0.000162 seconds
+v1/v2 are different.
+insertion_sort(): 0.007932 seconds
+v1/v2 are the same.
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab3 $[00m ./sorting[5Pmake
+g++ -c sorting.cpp
+g++ -o sorting sorting.o Clock.o 
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab3 $[00m make./sorting
+sort(): 0.002128 seconds
+v1/v2 are different.
+insertion_sort(): 0.82428 seconds
+v1/v2 are the same.
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab3 $[00m ./sorting[5Pmake
+g++ -c sorting.cpp
+g++ -o sorting sorting.o Clock.o 
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab3 $[00m make./sorting
+sort(): 0.026975 seconds
+v1/v2 are different.
+insertion_sort(): 79.3022 seconds
+v1/v2 are the same.
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab3 $[00m ./sorting[5Pmake
+g++ -c sorting.cpp
+g++ -o sorting sorting.o Clock.o 
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab3 $[00m make./sorting
+sort(): 0.31334 seconds
+v1/v2 are different.
+^C
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab3 $[00m 
+Script done on 2017年04月14日 (週五) 03時16分02秒
